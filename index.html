@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sorting Algorithm Visualizer</h1>
+            <div class="controls">
+                <button id="generateArray">Generate New Array</button>
+                <select id="algorithmSelect">
+                    <option value="quickSort">Quick Sort</option>
+                    <option value="mergeSort">Merge Sort</option>
+                    <option value="heapSort">Heap Sort</option>
+                    <option value="bubbleSort">Bubble Sort</option>
+                </select>
+                <div class="size-control">
+                    <label for="arraySize">Array Size:</label>
+                    <input type="range" id="arraySize" min="10" max="100" value="50">
+                </div>
+                <div class="speed-control">
+                    <label for="sortingSpeed">Speed:</label>
+                    <input type="range" id="sortingSpeed" min="1" max="100" value="50">
+                </div>
+                <button id="startSort">Start Sorting</button>
+            </div>
+        </header>
+        <div class="visualization-container">
+            <div id="arrayContainer"></div>
+        </div>
+        <div class="stats">
+            <div class="stat-item">
+                <span>Time Elapsed:</span>
+                <span id="timeElapsed">0.00s</span>
+            </div>
+            <div class="stat-item">
+                <span>Comparisons:</span>
+                <span id="comparisons">0</span>
+            </div>
+            <div class="stat-item">
+                <span>Array Accesses:</span>
+                <span id="arrayAccesses">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="algorithms.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
