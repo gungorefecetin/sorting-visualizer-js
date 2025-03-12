@@ -21,10 +21,6 @@ A beautiful, interactive web application that visualizes various sorting algorit
   - Number of comparisons
   - Array access count
 
-## 🚀 Live Demo
-
-[View Live Demo](gungorefecetin.github.io/sorting-visualizer-js) <!-- Add your deployed version link here -->
-
 ## 💻 Technologies Used
 
 - JavaScript (ES6+)
