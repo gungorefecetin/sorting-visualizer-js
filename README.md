@@ -28,6 +28,11 @@ A beautiful, interactive web application that visualizes various sorting algorit
 - CSS3
 - No external dependencies!
 
+## ⛳️ Demo Images
+
+<img width="1225" height="706" alt="Screenshot 2026-02-23 at 09 38 13" src="https://github.com/user-attachments/assets/aa65dd23-9e49-40d9-b18a-3db0dc67db0a" />
+<img width="1228" height="701" alt="Screenshot 2026-02-23 at 09 39 00" src="https://github.com/user-attachments/assets/0a635c4c-416c-443f-aaec-6ae4838c97bf" />
+
 ## 🎯 Algorithm Implementations
 
 ### Quick Sort
